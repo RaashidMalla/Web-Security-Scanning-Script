@@ -117,3 +117,4 @@ tr.sev-critical .badge { background: #7f1d1d; color: #fee2e2; }
 tr.sev-high     .badge { background: #9a3412; color: #ffedd5; }
 tr.sev-medium   .badge { background: #854d0e; color: #fef9c3; }
 tr.sev-low      .badge { background: #1e3a8a; color: #dbeafe; }
+.copyright{text-align:center;}
