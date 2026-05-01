@@ -1,0 +1,82 @@
+{
+  "contact-form-7": [
+    {
+      "cve": "CVE-2020-35489",
+      "title": "Unrestricted file upload via filename sanitization bypass",
+      "affected": "<5.3.2",
+      "severity": "Critical",
+      "attack": "Attacker uploads .php disguised as .jpg.php through crafted filename, then executes it for RCE.",
+      "fix": "Update Contact Form 7 to 5.3.2 or later."
+    }
+  ],
+  "elementor": [
+    {
+      "cve": "CVE-2022-1329",
+      "title": "Missing authorization on REST endpoints",
+      "affected": "<3.6.3",
+      "severity": "Critical",
+      "attack": "Any logged-in subscriber could upload arbitrary files and take over the site (RCE).",
+      "fix": "Update Elementor to 3.6.3 or later."
+    }
+  ],
+  "wpforms-lite": [
+    {
+      "cve": "CVE-2023-3479",
+      "title": "Stored XSS via form field labels",
+      "affected": "<1.8.2.3",
+      "severity": "Medium",
+      "attack": "Authenticated contributor injects JS into form labels, executes in admin context on form review.",
+      "fix": "Update WPForms Lite to 1.8.2.3 or later."
+    }
+  ],
+  "woocommerce": [
+    {
+      "cve": "CVE-2021-32790",
+      "title": "SQL injection in WooCommerce admin",
+      "affected": "<5.5.1",
+      "severity": "Critical",
+      "attack": "Crafted request to admin endpoint exfiltrates DB contents (orders, customers, hashed passwords).",
+      "fix": "Update WooCommerce to 5.5.1 or later."
+    }
+  ],
+  "wp-file-manager": [
+    {
+      "cve": "CVE-2020-25213",
+      "title": "Unauthenticated arbitrary file upload (elFinder)",
+      "affected": "<6.9",
+      "severity": "Critical",
+      "attack": "Unauthenticated attacker uploads PHP shell via elFinder connector. Heavily exploited in the wild.",
+      "fix": "Update WP File Manager to 6.9 or later (or remove if unused)."
+    }
+  ],
+  "duplicator": [
+    {
+      "cve": "CVE-2020-11738",
+      "title": "Unauthenticated path traversal / arbitrary file read",
+      "affected": "<1.3.28",
+      "severity": "High",
+      "attack": "Path traversal in installer downloads wp-config.php anonymously, leaking DB credentials.",
+      "fix": "Update Duplicator to 1.3.28+ and remove leftover installer files."
+    }
+  ],
+  "ninja-forms": [
+    {
+      "cve": "CVE-2022-3243",
+      "title": "Code injection via deserialization",
+      "affected": "<3.6.11",
+      "severity": "Critical",
+      "attack": "Unauthenticated POP-chain deserialization leads to remote code execution.",
+      "fix": "Update Ninja Forms to 3.6.11 or later."
+    }
+  ],
+  "all-in-one-seo-pack": [
+    {
+      "cve": "CVE-2021-24307",
+      "title": "Authenticated SQL injection",
+      "affected": "<4.1.5.3",
+      "severity": "High",
+      "attack": "Privilege escalation: a low-priv user injects SQL via search-terms parameter to dump users table.",
+      "fix": "Update All in One SEO to 4.1.5.3 or later."
+    }
+  ]
+}

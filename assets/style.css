@@ -1,0 +1,119 @@
+* { box-sizing: border-box; }
+body {
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 2rem 1rem;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.8rem;
+}
+.subtitle {
+    margin: 0 0 1.5rem;
+    color: #94a3b8;
+}
+.warning {
+    background: #422006;
+    border: 1px solid #b45309;
+    color: #fde68a;
+    padding: .9rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: .95rem;
+}
+.scan-form {
+    background: #1e293b;
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.scan-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: .35rem;
+}
+.scan-form input[type=url] {
+    width: 100%;
+    padding: .6rem .75rem;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.scan-form .checkbox {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.scan-form button {
+    background: #2563eb;
+    color: white;
+    border: 0;
+    padding: .65rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.scan-form button:hover { background: #1d4ed8; }
+
+.error {
+    background: #450a0a;
+    border: 1px solid #b91c1c;
+    color: #fecaca;
+    padding: .8rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+.ok {
+    background: #052e1c;
+    border: 1px solid #16a34a;
+    color: #bbf7d0;
+    padding: .8rem 1rem;
+    border-radius: 6px;
+}
+.meta {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    color: #cbd5e1;
+}
+table.findings {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
+}
+table.findings th,
+table.findings td {
+    padding: .7rem .85rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #334155;
+    font-size: .92rem;
+}
+table.findings th {
+    background: #0f172a;
+    font-weight: 600;
+    color: #cbd5e1;
+}
+.badge {
+    padding: .2rem .55rem;
+    border-radius: 999px;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+tr.sev-critical .badge { background: #7f1d1d; color: #fee2e2; }
+tr.sev-high     .badge { background: #9a3412; color: #ffedd5; }
+tr.sev-medium   .badge { background: #854d0e; color: #fef9c3; }
+tr.sev-low      .badge { background: #1e3a8a; color: #dbeafe; }
