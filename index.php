@@ -97,5 +97,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
     <?php endif; ?>
 </div>
+    <div class="copyright">Developed By Raashid Malla</div>
 </body>
 </html>
