@@ -179,9 +179,9 @@ Wrap `Scanner` in a small CLI entry script that reads `$argv[1]` and prints `jso
 
 Pull requests welcome. Good first contributions:
 
-- Add CVE entries to `data/wp_plugin_vulns.json`
-- Add new exposed-file signatures to `lib/Checks/ExposedFiles.php`
-- Improve fingerprinting heuristics in `lib/Scanner.php`
+- Add CVE entries to `data/wp_plugin_vulns.json.`
+- Add new exposed-file signatures to `lib/Checks/ExposedFiles.php.`
+- Improve fingerprinting heuristics in `lib/Scanner.php.`
 
 Please make sure any new check follows the standard finding shape:
 ```php
@@ -204,4 +204,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Disclaimer
 
-This software is provided for **educational purposes** and **authorized security testing only**. The authors accept no liability for misuse. Scanning systems without explicit permission is illegal in most jurisdictions — and this tool is no exception in that regard. Use responsibly.
+This software is provided for **educational purposes** and **authorized security testing only**. The authors accept no liability for misuse. Scanning systems without explicit permission are illegal in most jurisdictions, and this tool is no exception in that regard. Use responsibly.
