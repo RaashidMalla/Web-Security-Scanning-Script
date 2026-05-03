@@ -1,6 +1,6 @@
 # Web Security Scanning Script
 
-> Passive vulnerability scanner for Laravel & WordPress sites — checks security headers, exposed files, debug modes, and known-vulnerable plugins.
+> Passive vulnerability scanner for Laravel & WordPress sites checks security headers, exposed files, debug modes, and known-vulnerable plugins.
 
 A lightweight, browser-based PHP scanner that performs **read-only / non-intrusive** security checks against a target web application. It detects common misconfigurations and matches detected versions against a CVE database — without firing a single exploit payload.
 
@@ -10,7 +10,7 @@ A lightweight, browser-based PHP scanner that performs **read-only / non-intrusi
 
 **Only scan websites you own or have written permission to test.**
 
-Unauthorized scanning of third-party websites may violate computer-misuse laws in your jurisdiction (e.g. the Computer Fraud and Abuse Act in the United States, the Computer Misuse Act in the United Kingdom, and similar laws elsewhere).
+Unauthorized scanning of third-party websites may violate computer-misuse laws in your jurisdiction (e.g., the Computer Fraud and Abuse Act in the United States, the Computer Misuse Act in the United Kingdom, and similar laws elsewhere).
 
 This tool requires you to tick a consent checkbox before every scan. By using it, you accept full responsibility for ensuring you have authorization to scan the target.
 
@@ -66,7 +66,7 @@ If you need active testing, use a dedicated pentest framework with proper engage
 
 - PHP **8.0+** (uses `match`, `str_contains`, named arguments)
 - PHP cURL extension (bundled with XAMPP)
-- A webserver — Apache (XAMPP / WAMP / MAMP) or `php -S` works fine
+- A web server — Apache (XAMPP / WAMP / MAMP) or `php -S` works fine
 
 ---
 
@@ -98,7 +98,7 @@ Then open `http://localhost:8000/`.
 ## Usage
 
 1. Open the scanner in your browser.
-2. Enter the target URL (e.g. `https://my-site.test`).
+2. Enter the target URL (e.g., `https://my-site.test`).
 3. Tick the **"I confirm I am authorized to scan this target"** checkbox.
 4. Click **Run Scan**.
 5. Review the report — findings are sorted Critical → Low.
@@ -115,7 +115,7 @@ CRITICAL  .env file exposed
 
 HIGH      Vulnerable plugin: contact-form-7 v5.3.1
           CVE-2020-35489 — Unrestricted file upload bypass.
-          Attack: upload disguised .php for RCE.
+          Attack: upload a disguised .php for RCE.
           Fix:    update Contact Form 7 to ≥5.3.2.
 
 MEDIUM    Missing Content-Security-Policy
