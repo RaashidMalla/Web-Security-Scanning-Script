@@ -108,5 +108,15 @@
     "attack": "Unauthenticated attacker exploits ajax endpoint to download sensitive files like wp-config.php, exposing database credentials.",
     "fix": "Update Slider Revolution (RevSlider) to latest version and remove old vulnerable copies bundled in themes."
   }
+],
+  "yoast-seo": [
+  {
+    "cve": "CVE-2021-25118",
+    "title": "Reflected XSS in admin dashboard",
+    "affected": "<17.3",
+    "severity": "Medium",
+    "attack": "Attacker tricks an authenticated admin into clicking a crafted link that injects malicious JavaScript, executing in admin context.",
+    "fix": "Update Yoast SEO to 17.3 or later."
+  }
 ]
 }
