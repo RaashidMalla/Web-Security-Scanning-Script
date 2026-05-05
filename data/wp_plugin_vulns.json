@@ -88,5 +88,15 @@
     "attack": "Improper sanitization in WP_Query allows attackers to inject SQL via crafted input, potentially exposing sensitive database data.",
     "fix": "Update WordPress core to 5.8.3 or later."
   }
+],
+  "ultimate-member": [
+  {
+    "cve": "CVE-2023-3460",
+    "title": "Privilege escalation via account update",
+    "affected": "<2.6.7",
+    "severity": "Critical",
+    "attack": "Unauthenticated attacker can modify user roles via crafted request, escalating privileges to admin and taking full control of the site.",
+    "fix": "Update Ultimate Member plugin to 2.6.7 or later."
+  }
 ]
 }
