@@ -78,5 +78,15 @@
       "attack": "Privilege escalation: a low-priv user injects SQL via search-terms parameter to dump users table.",
       "fix": "Update All in One SEO to 4.1.5.3 or later."
     }
-  ]
+  ],
+  "wordpress-core": [
+  {
+    "cve": "CVE-2022-21661",
+    "title": "SQL Injection in WP_Query",
+    "affected": "<5.8.3",
+    "severity": "Critical",
+    "attack": "Improper sanitization in WP_Query allows attackers to inject SQL via crafted input, potentially exposing sensitive database data.",
+    "fix": "Update WordPress core to 5.8.3 or later."
+  }
+]
 }
