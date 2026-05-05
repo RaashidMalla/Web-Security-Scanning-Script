@@ -118,5 +118,15 @@
     "attack": "Attacker tricks an authenticated admin into clicking a crafted link that injects malicious JavaScript, executing in admin context.",
     "fix": "Update Yoast SEO to 17.3 or later."
   }
+],
+  "litespeed-cache": [
+  {
+    "cve": "CVE-2023-40000",
+    "title": "Unauthenticated privilege escalation",
+    "affected": "<5.7",
+    "severity": "Critical",
+    "attack": "Improper input validation allows unauthenticated attackers to escalate privileges and gain admin access, leading to full site takeover.",
+    "fix": "Update LiteSpeed Cache to 5.7 or later."
+  }
 ]
 }
