@@ -98,5 +98,15 @@
     "attack": "Unauthenticated attacker can modify user roles via crafted request, escalating privileges to admin and taking full control of the site.",
     "fix": "Update Ultimate Member plugin to 2.6.7 or later."
   }
+],
+  "revslider": [
+  {
+    "cve": "CVE-2014-9734",
+    "title": "Arbitrary file download/information disclosure",
+    "affected": "<4.2",
+    "severity": "Critical",
+    "attack": "Unauthenticated attacker exploits ajax endpoint to download sensitive files like wp-config.php, exposing database credentials.",
+    "fix": "Update Slider Revolution (RevSlider) to latest version and remove old vulnerable copies bundled in themes."
+  }
 ]
 }
