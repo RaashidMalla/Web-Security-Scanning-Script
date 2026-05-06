@@ -148,5 +148,15 @@
     "attack": "Authenticated attacker with admin privileges writes arbitrary PHP to a cache file, achieving remote code execution.",
     "fix": "Update WP Super Cache to 1.7.2 or later."
   }
+],
+  "loginizer": [
+  {
+    "cve": "CVE-2020-27615",
+    "title": "Unauthenticated SQL injection in login protection",
+    "affected": "<1.6.4",
+    "severity": "Critical",
+    "attack": "Attacker injects SQL via the username field on the login page without authentication, potentially dumping the entire database.",
+    "fix": "Update Loginizer to 1.6.4 or later."
+  }
 ]
 }
