@@ -138,5 +138,15 @@
     "attack": "Unauthenticated attacker crafts a URL injecting JavaScript into the login redirect flow, executing in the victim's browser.",
     "fix": "Update Jetpack to 12.1.1 or later."
   }
+],
+  "wp-super-cache": [
+  {
+    "cve": "CVE-2021-24209",
+    "title": "Authenticated RCE via cache file",
+    "affected": "<1.7.2",
+    "severity": "High",
+    "attack": "Authenticated attacker with admin privileges writes arbitrary PHP to a cache file, achieving remote code execution.",
+    "fix": "Update WP Super Cache to 1.7.2 or later."
+  }
 ]
 }
