@@ -128,5 +128,15 @@
     "attack": "Improper input validation allows unauthenticated attackers to escalate privileges and gain admin access, leading to full site takeover.",
     "fix": "Update LiteSpeed Cache to 5.7 or later."
   }
+],
+  "jetpack": [
+  {
+    "cve": "CVE-2023-2996",
+    "title": "Reflected XSS via redirect_to parameter",
+    "affected": "<12.1.1",
+    "severity": "Medium",
+    "attack": "Unauthenticated attacker crafts a URL injecting JavaScript into the login redirect flow, executing in the victim's browser.",
+    "fix": "Update Jetpack to 12.1.1 or later."
+  }
 ]
 }
