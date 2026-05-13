@@ -158,5 +158,5 @@
     "attack": "Attacker injects SQL via the username field on the login page without authentication, potentially dumping the entire database.",
     "fix": "Update Loginizer to 1.6.4 or later."
   }
-]
+],
 }
