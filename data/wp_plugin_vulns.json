@@ -146,7 +146,7 @@
     "affected": "<1.7.2",
     "severity": "High",
     "attack": "Authenticated attacker with admin privileges writes arbitrary PHP to a cache file, achieving remote code execution.",
-    "fix": "Update WP Super Cache to 1.7.2 or later."
+    "fix": "Update WP Super Cache to 1.7.2 or later to fix this."
   }
 ],
   "loginizer": [
@@ -156,7 +156,7 @@
     "affected": "<1.6.4",
     "severity": "Critical",
     "attack": "Attacker injects SQL via the username field on the login page without authentication, potentially dumping the entire database.",
-    "fix": "Update Loginizer to 1.6.4 or later to Secure this."
+    "fix": "Update Loginizer to 1.6.4 or later to secure this."
   }
 ],
 }
