@@ -6,7 +6,7 @@
       "affected": "<5.3.2",
       "severity": "Critical",
       "attack": "Attacker uploads .php disguised as .jpg.php through crafted filename, then executes it for RCE.",
-      "fix": "Update Contact Form 7 to 5.3.2 or later."
+      "fix": "Update Contact Form 7 to 5.3.2 or later to fix this."
     }
   ],
   "elementor": [
