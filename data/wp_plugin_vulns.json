@@ -36,7 +36,7 @@
       "affected": "<5.5.1",
       "severity": "Critical",
       "attack": "Crafted request to admin endpoint exfiltrates DB contents (orders, customers, hashed passwords).",
-      "fix": "Update WooCommerce to 5.5.1 or later."
+      "fix": "Update WooCommerce to 5.5.1 or later to fix this."
     }
   ],
   "wp-file-manager": [
