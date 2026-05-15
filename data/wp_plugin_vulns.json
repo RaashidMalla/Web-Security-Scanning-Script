@@ -15,8 +15,8 @@
       "title": "Missing authorization on REST endpoints",
       "affected": "<3.6.3",
       "severity": "Critical",
-      "attack": "Any logged-in subscriber could upload arbitrary files and take over the site (RCE).",
-      "fix": "Update Elementor to 3.6.3 or later."
+      "attack": "Any logged-in subscriber could upload arbitrary files and take over the site (RCE)."
+      "fix": "Update Elementor to 3.6.3 or later to fix this issue."
     }
   ],
   "wpforms-lite": [
