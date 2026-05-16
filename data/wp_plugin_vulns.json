@@ -136,7 +136,7 @@
     "affected": "<12.1.1",
     "severity": "Medium",
     "attack": "Unauthenticated attacker crafts a URL injecting JavaScript into the login redirect flow, executing in the victim's browser.",
-    "fix": "Update Jetpack to 12.1.1 or later."
+    "fix": "Update Jetpack to 12.1.1 or later to fix this."
   }
 ],
   "wp-super-cache": [
