@@ -76,7 +76,7 @@
       "affected": "<4.1.5.3",
       "severity": "High",
       "attack": "Privilege escalation: a low-priv user injects SQL via search-terms parameter to dump users table.",
-      "fix": "Update All in One SEO to 4.1.5.3 or later."
+      "fix": "Update All in One SEO to 4.1.5.3 or later to fix this."
     }
   ],
   "wordpress-core": [
