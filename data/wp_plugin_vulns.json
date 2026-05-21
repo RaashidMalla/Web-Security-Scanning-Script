@@ -126,7 +126,7 @@
     "affected": "<5.7",
     "severity": "Critical",
     "attack": "Improper input validation allows unauthenticated attackers to escalate privileges and gain admin access, leading to full site takeover.",
-    "fix": "Update LiteSpeed Cache to 5.7 or later."
+    "fix": "Update LiteSpeed Cache to 5.7 or later to fix this."
   }
 ],
   "jetpack": [
