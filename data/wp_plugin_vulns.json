@@ -86,7 +86,7 @@
     "affected": "<5.8.3",
     "severity": "Critical",
     "attack": "Improper sanitization in WP_Query allows attackers to inject SQL via crafted input, potentially exposing sensitive database data.",
-    "fix": "Update WordPress core to 5.8.3 or later."
+    "fix": "Update WordPress core to 5.8.3 or later to fix this issue."
   }
 ],
   "ultimate-member": [
