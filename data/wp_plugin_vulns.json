@@ -79,7 +79,7 @@
       "fix": "Update All in One SEO to 4.1.5.3 or later to fix this."
     }
   ],
-  "wordpress-core": [
+  "wordpress-core": [    
   {
     "cve": "CVE-2022-21661",
     "title": "SQL Injection in WP_Query",
